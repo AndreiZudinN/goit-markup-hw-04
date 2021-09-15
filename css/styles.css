@@ -106,8 +106,41 @@ img {
 .auth-nav :focus {
   color: var(--accent-color);
 }
+.mailto::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 12px;
+  /* background-color: red; */
+  background-image: url(../images/mail.svg);
+  background-size: contain;
+  margin-right: 10px;
+}
+.tel::before {
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 16px;
+  /* background-color: red; */
+  background-image: url(../images/phone.svg);
+  background-size: contain;
+  margin-right: 10px;
+}
 /* Hero */
 .hero {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  margin: 0 auto;
+  height: 600px;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
@@ -178,6 +211,25 @@ img {
 .skills {
   padding-bottom: 0;
 }
+.skills-list li::before {
+  display: inline-block;
+  content: "";
+  width: 270px;
+  height: 120px;
+}
+.skills-list li:nth-child(1)::before {
+  background-image: url(../images/Group\ 1.svg);
+}
+.skills-list li:nth-child(2)::before {
+  background-image: url(../images/Group\ 2.svg);
+}
+.skills-list li:nth-child(3)::before {
+  background-image: url(../images/Group\ 3.svg);
+}
+.skills-list li:nth-child(4)::before {
+  background-image: url(../images/Group\ 4.svg);
+}
+
 .skills .title {
   font-weight: 700;
   font-size: 14px;
