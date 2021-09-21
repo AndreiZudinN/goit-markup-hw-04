@@ -261,10 +261,6 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-list-comment {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
 .team .title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -277,7 +273,7 @@ img {
   line-height: 1.2;
 }
 .team-list-comment {
-  padding: 10px 0;
+  padding: 30px 0;
 }
 .team-list-cloud {
   padding: 0;
